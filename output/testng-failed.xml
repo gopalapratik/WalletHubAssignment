@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Farmline Automation]" parallel="parallel test execution">
+  <test name="Regression Pack for FarmLine project(failed)" parallel="parallel test execution">
+    <classes>
+      <class name="com.morrisons.automation.runner.farmline.FarmlineRunner">
+        <methods>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.morrisons.automation.runner.farmline.FarmlineRunner -->
+    </classes>
+  </test> <!-- Regression Pack for FarmLine project(failed) -->
+</suite> <!-- Failed suite [Farmline Automation] -->

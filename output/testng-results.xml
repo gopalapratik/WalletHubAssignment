@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Farmline Automation" duration-ms="69283" started-at="2019-07-25T10:57:47Z" finished-at="2019-07-25T10:58:57Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="FarmlineRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.morrisons.automation.runner.farmline.FarmlineRunner@1623b78d]" name="feature" class="com.morrisons.automation.runner.farmline.FarmlineRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Regression Pack for FarmLine project" duration-ms="69283" started-at="2019-07-25T10:57:47Z" finished-at="2019-07-25T10:58:57Z">
+      <class name="com.morrisons.automation.runner.farmline.FarmlineRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.morrisons.automation.runner.farmline.FarmlineRunner@1623b78d]" name="setUpClass" is-config="true" duration-ms="1104" started-at="2019-07-25T16:27:47Z" finished-at="2019-07-25T16:27:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.morrisons.automation.runner.farmline.FarmlineRunner@1623b78d]" name="feature" duration-ms="66931" started-at="2019-07-25T16:27:48Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-07-25T16:28:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User Search Scenarios]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.morrisons.automation.runner.farmline.FarmlineRunner@1623b78d]" name="tearDownClass" is-config="true" duration-ms="1091" started-at="2019-07-25T16:28:55Z" finished-at="2019-07-25T16:28:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.morrisons.automation.runner.farmline.FarmlineRunner -->
+    </test> <!-- Regression Pack for FarmLine project -->
+  </suite> <!-- Farmline Automation -->
+</testng-results>

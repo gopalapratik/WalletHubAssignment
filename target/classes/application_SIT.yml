@@ -1,0 +1,13 @@
+myDriver:
+  chromeDriverPath: webDrivers/chromedriver.exe
+facebook: 
+  url: https://www.facebook.com/
+  username: 9167602508
+  password: TmlzaGkyOCM=
+  loginpagetitle: Facebook – log in or sign up 
+wallethub:
+   url: http://wallethub.com/profile/test_insurance_company/
+   username: gopala_pratik@yahoo.co.in
+   password: V2FsbGV0MjEj
+   reviewtext: Compare credit cards from all of the major issuers (some of which are WalletHub partners) and quickly find the best credit card for your needs. To use WalletHub’s powerful credit card comparison tool, start by applying filters from the left side of the page to narrow down your search. This will allow you to focus on comparing credit cards with high approval odds that actually offer the features you want.
+   
